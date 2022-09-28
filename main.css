@@ -1,0 +1,354 @@
+@font-face { /* 애플산돌고딕 폰트 적용 */
+    font-family: "hannaAir";
+    src: url("font/BMHANNAAir_ttf.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face { /* 애플산돌고딕 폰트 적용 */
+    font-family: "baeminYeonSeong";
+    src: url("font/BMYEONSUNG_ttf.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face { /* 애플산돌고딕 폰트 적용 */
+    font-family: "gowunRegular";
+    src: url("font/GowunBatang-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face { /* 애플산돌고딕 폰트 적용 */
+    font-family: "gowunBold";
+    src: url("font/GowunBatang-Bold.ttf") format("truetype");
+    font-weight: normal;
+}
+
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: gowunRegular;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#header{
+    /* background-color: transparent; */
+    position:fixed;
+    top:0;
+    left:0;
+    height:80px;
+    width:100%;
+    display: flex;
+    z-index: 1000;
+
+
+	background-color: rgba(0, 0, 0, 0.3);
+	-webkit-backdrop-filter: blur(8px);
+  	backdrop-filter: blur(8px);
+	width: 100%;
+}
+#header .header_container{
+    width:1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header .header_container .logo{
+    height:70px;
+}
+#header .header_container ul{
+    display: flex;
+    margin: 0 30px;
+}
+#header .header_container ul li{
+    margin:0 30px;
+    list-style: none;
+    color:#fff;
+}
+
+
+#main_visual{
+    background-image: url('/img/mainvisual01.jpeg');
+    height:900px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#main_visual .head_container{
+    height: 900px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+#main_visual .head_container h4{
+    color: #fff;
+    font-size: 40px;
+}
+#main_visual .head_container h3{
+    color: #fff;
+    font-size: 60px;
+}
+#main_visual .head_card{
+    position:absolute;
+    bottom:0%;
+    left:50%;
+    /* transform:transition(50%, 50%); */
+    display: flex;
+    background-color: #fff;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 70px;
+    transform:translate(-50%,100px);
+}
+#main_visual .head_card h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+#main_visual .head_card p{
+    word-break: keep-all;
+    white-space: nowrap;
+    margin: 20px 0;
+}
+#main_visual .head_card .card_btn{
+    background-color: #f7f7f7;
+    color: #333;
+    border: 1px solid #ddd;
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+
+#main_room{
+    background: url('/img/bg_mainroom.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: -100px 0 0 0;
+    padding: 220px 0 100px 0;
+}
+#main_room .room_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main_room .room_title h3{
+    font-size:40px;
+}
+#main_room .slide_container{
+    /* background-color: #ffffff10; */
+
+    /* 임시 */
+    background: url('img/IMG_4386.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+    border-radius: 10px;
+
+    width:700px;
+    height:400px;
+    margin: 30px auto;
+    /* border: 1px solid #020202; */
+    text-align: center;
+}
+
+#main_about{
+    background-color: #f7f7f7;
+    padding: 100px 0;
+}
+#main_about .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1140px;
+    margin: 0 auto;
+}
+#main_about .about_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+#main_about .about_title h3{
+    font-size:40px;
+}
+#main_about .about_title p{
+    font-size:15px;
+    letter-spacing: -1px;
+    color:#979797;
+}
+#main_about .about_title span{
+    letter-spacing: -1px;
+    font-size:15px;
+    color:#787878;
+}
+#main_about .about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+#main_about .about_container .about_img1{
+    background: url('/img/bg_aboutroom.jpeg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    height: 50px;
+    width:400px;
+    padding: 100px 0;
+}
+#main_about .about_container .about_img2{
+    background: url('/img/bg_aboutsea.jpeg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    height: 50px;
+    width:400px;
+    padding: 100px 0;
+}
+
+
+#main_services{
+    padding: 100px 0;
+    background-color: #fff;
+}
+#main_services .service_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin-top:30px;
+}
+#main_services .service_container div{
+    width:33%;
+}
+#main_services .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1140px;
+    margin: 0 auto;
+}
+#main_services .service_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+#main_services .service_title h3{
+    font-size:40px;
+}
+#main_services .service_title p{
+    font-size:15px;
+    letter-spacing: -1px;
+    color:#979797;
+}
+#main_services .service_title span{
+    letter-spacing: -1px;
+    font-size:15px;
+    color:#787878;
+}
+
+#main_services .service_container h4 {
+    color: #999;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    font-weight: normal;
+}
+#main_services .service_container h5{
+    font-size:18px;
+    margin:25px 0 10px 0;
+} 
+#main_services .service_container p{
+    min-height:120px;
+}
+#main_services .service_container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#main_services .service_container a.btn {
+    background-image: url('img/icon_more.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 0 45px 0 0;
+    display: inline-block;
+    margin: 0;
+}
+
+
+#main_contact{
+    background-image: url('img/bg_contact.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 0 -100px 0;
+    padding: 100px 0;
+}
+#main_contact .contact_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+#main_contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#main_contact .contact_title h3{
+    font-size:40px;
+    color: #fff;
+}
+#main_contact .contact_title span{
+    font-size:15px;
+    letter-spacing: -1px;
+    color:#fff;
+}
+#main_contact .contact_btn{
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin-top:30px;
+    transition:.3s linear;
+}
+#main_contact .contact_btn:hover{
+    background-color: rgb(240, 212, 102);
+    color:#020202;
+}
