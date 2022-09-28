@@ -1,21 +1,21 @@
 @font-face { /* 애플산돌고딕 폰트 적용 */
     font-family: "hannaAir";
-    src: url("font/BMHANNAAir_ttf.ttf") format("truetype");
+    src: url("../font/BMHANNAAir_ttf.ttf") format("truetype");
     font-weight: normal;
 }
 @font-face { /* 애플산돌고딕 폰트 적용 */
     font-family: "baeminYeonSeong";
-    src: url("font/BMYEONSUNG_ttf.ttf") format("truetype");
+    src: url("../font/BMYEONSUNG_ttf.ttf") format("truetype");
     font-weight: normal;
 }
 @font-face { /* 애플산돌고딕 폰트 적용 */
     font-family: "gowunRegular";
-    src: url("font/GowunBatang-Regular.ttf") format("truetype");
+    src: url("../font/GowunBatang-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 @font-face { /* 애플산돌고딕 폰트 적용 */
     font-family: "gowunBold";
-    src: url("font/GowunBatang-Bold.ttf") format("truetype");
+    src: url("../font/GowunBatang-Bold.ttf") format("truetype");
     font-weight: normal;
 }
 
