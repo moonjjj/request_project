@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 #main_visual{
-    background-image: url('./img/mainvisual01.jpeg');
+    background-image: url('../img/mainvisual01.jpeg');
     height:900px;
     background-position: center top;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 #main_room{
-    background: url('./img/bg_mainroom.jpeg');
+    background: url('../img/bg_mainroom.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6, p{
     /* background-color: #ffffff10; */
 
     /* 임시 */
-    background: url('./img/IMG_4386.jpeg');
+    background: url('../img/IMG_4386.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 50px 0;
 }
 #main_about .about_container .about_img1{
-    background: url('./img/bg_aboutroom.jpeg');    
+    background: url('../img/bg_aboutroom.jpeg');    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 100px 0;
 }
 #main_about .about_container .about_img2{
-    background: url('./img/bg_aboutsea.jpeg');    
+    background: url('../img/bg_aboutsea.jpeg');    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, p{
     height: auto;
 }
 #main_services .service_container a.btn {
-    background-image: url('./img/icon_more.png');
+    background-image: url('../img/icon_more.png');
     background-position: right center;
     background-repeat: no-repeat;
     padding: 0 45px 0 0;
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 #main_contact{
-    background-image: url('./img/bg_contact.jpeg');
+    background-image: url('../img/bg_contact.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
